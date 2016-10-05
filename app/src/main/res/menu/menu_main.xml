@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.linuxcomp.apps.hstester.MainActivity">
+    <item android:title="@string/about"
+        android:id="@+id/action_about" />
+    <item
+        android:id="@+id/action_linuxcomp"
+        android:orderInCategory="100"
+        android:title="@string/action_handbook"
+        app:showAsAction="never" />
+</menu>

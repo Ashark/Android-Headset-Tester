@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Headset Tester</string>
+    <string name="state_of_cable">Audio cable connected: </string>
+    <string name="type_of_cable">Microphone detected: </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cannot_determine">cannot determine</string>
+    <string name="insert_cable">Insert cable</string>
+    <string name="unknown">Unknown</string>
+    <string name="button">Function</string>
+    <string name="press">Presses</string>
+    <string name="release">Releases</string>
+    <string name="zero">0</string>
+    <string name="action_settings">Help me</string>
+    <string name="push_to_show_deviceid">Press some button</string>
+    <string name="indicator_btn_plus">A (Vol+)</string>
+    <string name="indicator_btn_minus">B (Vol-)</string>
+    <string name="indicator_btn_pause">C (Hook)</string>
+    <string name="indicator_btn_voice">D (Voice)</string>
+    <string name="about">About</string>
+    <string name="action_handbook">Handbook</string>
+
+    <string name="app_description_text">
+        This app will help you test your headset/headphones.\n\n
+        1) With this app you can easily determine if headset (TRRS 4 pin) or headphones are connected to audio jack. Some Android devices do not show you this information (for example, Samsung S4).\n\n
+        2) App can be used to make electrical tests. If you want to assemble your own remote control, you can test how device will recognise different values of resistance.\n\n
+
+        Tips:\n
+        1) While plugging, no one button should be pressed on remote controller, otherwise device will not recognise mic.\n
+        2) I have never seen 4-function wired headset, but in google specifcation there is reserved "voice" function. I tested it with command "adb shell input keyevent KEYCODE_VOICE_ASSIST".
+        It was introdused only since Android 5.0 as keycode 231. On 4.4.2 this keycode was used by samsung as KEYCODE_EMAIL.\n
+        3) This app only will show you generic headset buttons. If you somehow modified kl files in /system/usr/keylayout, then you should better use KeyTest app.
+
+        \n\nP.S. If you are skilled electronics man/woman, please contact me. Because I am not such skilled, I need to ask some questions. You can help me about reference test circuit, as I do not understand how to assemble it.\n
+        Also I do not know why measured resistance is different in case of direct measuring and measuring while connected to phone. Thank you!
+
+        \n\nToDo:\n
+        Refactor code \n
+        Remove deprecated methods \n
+        Animation of cable insertion \n
+    </string>
+    <string name="our_social">Our community (mostly in Russian):</string>
+    <string name="link_lc_site"><a href="https://linuxcomp.ru/">Main site</a></string>
+    <string name="link_lc_vk"><a href="https://vk.com/linuxcompru">Vk group</a></string>
+    <string name="link_lc_fb"><a href="https://www.facebook.com/LinuxCompRu/">Facebook community</a></string>
+    <string name="link_lc_tw"><a href="https://twitter.com/LinuxCompRu">Twitter</a></string>
+    <string name="link_lc_gp"><a href="https://plus.google.com/+LinuxCompRu?pageId=101869502372037207830">Google plus</a></string>
+
+    <string name="usefull_links">Usefull links:</string>
+    <string name="link_hs_specs"><a href="https://source.android.com/devices/accessories/headset/specification.html">Android Headset Specifications</a></string>
+    <string name="link_testing_remote"><a href="https://source.android.com/devices/accessories/headset/testing.html#voice_button_for_voice_actions_microphone">Testing remote buttons</a></string>
+    <string name="link_keyevent_voice"><a href="https://developer.android.com/reference/android/view/KeyEvent.html#KEYCODE_VOICE_ASSIST">Voice Assist in List of Keycodes</a></string>
+    <string name="link_remap_remote"><a href="http://forum.xda-developers.com/nexus-4/general/guide-headset-controls-t1997277">Remap headset buttons</a></string>
+    <string name="link_keytest_app"><a href="https://github.com/chrisboyle/keytest/downloads">KeyTest app</a></string>
+
+</resources>
