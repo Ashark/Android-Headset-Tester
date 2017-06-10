@@ -14,6 +14,10 @@ public class LinuxComp_Social extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linuxcomp_social);
         TextView tv1 = (TextView) findViewById(R.id.tvLink_lc_site);
+        TextView tv11 = (TextView) findViewById(R.id.tvLink_lc_blog);
+        TextView tv12 = (TextView) findViewById(R.id.tvLink_lc_yt_ru);
+        TextView tv13 = (TextView) findViewById(R.id.tvLink_lc_yt_wip);
+        TextView tv14 = (TextView) findViewById(R.id.tvLink_lc_yt_offtop);
         TextView tv2 = (TextView) findViewById(R.id.tvLink_fb);
         TextView tv3 = (TextView) findViewById(R.id.tvLink_gp);
         TextView tv4 = (TextView) findViewById(R.id.tvLink_tw);
@@ -35,5 +39,9 @@ public class LinuxComp_Social extends AppCompatActivity {
         tv8.setMovementMethod(LinkMovementMethod.getInstance());
         tv9.setMovementMethod(LinkMovementMethod.getInstance());
         tv10.setMovementMethod(LinkMovementMethod.getInstance());
+        tv11.setMovementMethod(LinkMovementMethod.getInstance());
+        tv12.setMovementMethod(LinkMovementMethod.getInstance());
+        tv13.setMovementMethod(LinkMovementMethod.getInstance());
+        tv14.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

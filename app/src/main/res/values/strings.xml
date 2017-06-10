@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Headset Tester</string>
+    <string name="app_name">Android Headset Tester</string>
     <string name="state_of_cable">Audio cable connected: </string>
     <string name="type_of_cable">Microphone detected: </string>
     <string name="yes">Yes</string>
@@ -40,7 +40,11 @@
         Animation of cable insertion \n
     </string>
     <string name="our_social">Our community (mostly in Russian):</string>
-    <string name="link_lc_site"><a href="https://linuxcomp.ru/">Main site</a></string>
+    <string name="link_lc_site"><a href="https://linuxcomp.ru/">LinuxComp site</a></string>
+    <string name="link_lc_blog"><a href="http://blog.linuxcomp.ru/">LinuxComp blog</a></string>
+    <string name="link_lc_yt_ru"><a href="https://www.youtube.com/LinuxCompRu">YouTube LinuxComp Ru</a></string>
+    <string name="link_lc_yt_wip"><a href="https://www.youtube.com/channel/UCmeBVzUlwFBTotGBJv879mw">YouTube LinuxComp Wip</a></string>
+    <string name="link_lc_yt_offtop"><a href="https://www.youtube.com/channel/UCDT4XObQmGz1SIEhOSufIqQ">YouTube LinuxComp Offtop</a></string>
     <string name="link_lc_vk"><a href="https://vk.com/linuxcompru">Vk group</a></string>
     <string name="link_lc_fb"><a href="https://www.facebook.com/LinuxCompRu/">Facebook community</a></string>
     <string name="link_lc_tw"><a href="https://twitter.com/LinuxCompRu">Twitter</a></string>

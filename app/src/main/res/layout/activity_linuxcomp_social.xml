@@ -29,6 +29,30 @@
             android:id="@+id/tvLink_lc_site" />
 
         <TextView
+            android:text="@string/link_lc_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLink_lc_blog" />
+
+        <TextView
+            android:text="@string/link_lc_yt_ru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLink_lc_yt_ru" />
+
+        <TextView
+            android:text="@string/link_lc_yt_wip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLink_lc_yt_wip" />
+
+        <TextView
+            android:text="@string/link_lc_yt_offtop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLink_lc_yt_offtop" />
+
+        <TextView
             android:text="@string/link_lc_vk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

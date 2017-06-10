@@ -238,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
 
             final String action = intent.getAction();
             String nm = intent.getStringExtra("name");
-            Log.d("tag", nm);
+            Log.d("tag", "index=" + nm); // do not remove "index=" +, otherwise app crashes on android 6+.
             if (Intent.ACTION_HEADSET_PLUG.equals(action)) {
                 int state = intent.getIntExtra("state", -1);
                 int microphone = intent.getIntExtra("microphone", -1);
